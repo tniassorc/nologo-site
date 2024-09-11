@@ -1,0 +1,101 @@
+.back {
+	position: fixed;
+  display: block;
+  margin: 1rem;
+  font-family: Monigue;
+  font-size: 2rem;
+  line-height: 1;
+  z-index: 100;
+  mix-blend-mode: exclusion;
+}
+
+.fullwrapper {
+  align-content: end;
+  padding-bottom: 1rem;
+  margin-top: -100vh;
+}
+
+.shirt {
+  height: 100vh;
+  width: 100vw;
+  object-fit: contain;
+}
+
+.fold {
+  width: 50%;
+}
+
+.top {
+  height: 167vh; /* Makes sure we have enough space to scroll */
+}
+
+.bottom {
+  height: auto;
+}
+
+.sticky-wrapper {
+  position: relative;
+  height: 100%; /* Each sticky section gets a full viewport height */
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  z-index: -1;
+}
+
+#footer {
+  position: absolute;
+  margin-top: 2rem !important;
+  margin-bottom: 0.5rem !important;
+}
+
+@media screen and (max-width: 800px) {
+
+  .top {
+    height: auto; /* Makes sure we have enough space to scroll */
+  }
+
+  .bottom {
+    height: auto;
+  }
+  .sticky-wrapper {
+    position: relative;
+    height: auto; /* Each sticky section gets a full viewport height */
+  }
+
+  .sticky {
+    position: relative;
+    top: 0;
+    z-index: -1;
+  }
+  
+  .shirt {
+    height: auto;
+    width: 100vw;
+    object-fit: contain;
+    padding: 1rem 0;
+
+  }
+  
+  .fullwrapper {
+    align-content: start;
+    margin-top: 0;
+    height: auto;
+    padding: 1rem 0;
+  }
+  
+  .back {
+    padding: 0.2rem;
+    background: white;
+    border-radius: 1rem;
+    mix-blend-mode: exclusion;
+    color: black;}
+
+    #footer {
+      position: relative;
+      margin-top: 3rem !important;
+      top: auto;
+    }
+
+  }

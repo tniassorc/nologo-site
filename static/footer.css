@@ -1,0 +1,38 @@
+#footer {
+	margin-top: 20vh;
+	width: 40%;
+	left: 50%;
+	transform: translate(-50%);
+	position: sticky;
+	top: 94.7vh;
+	z-index: 100;
+	display: flex;
+	padding: 0.2rem;
+	background: white;
+	mix-blend-mode: exclusion;
+	border-radius: 1rem;
+	font-size: 0.9rem;
+	color: white;
+	align-items: center;
+	justify-content: center;
+	z-index: 100;
+}
+
+#footer > * {
+	margin: 0.05rem 0.7rem;
+	color: white;
+	mix-blend-mode: difference;
+}
+
+#insta {
+	width: 1.5rem;
+	height: auto;
+}
+
+@media screen and (max-width: 800px) {
+	#footer {	
+		left: 1%;
+		transform: translate(1%, -99%);
+		width: 96%;
+	}
+}
