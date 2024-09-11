@@ -7,11 +7,11 @@
   line-height: 1;
   z-index: 100;
   mix-blend-mode: exclusion;
-      padding: 0.2rem;
-    background: white;
-    border-radius: 1rem;
-    mix-blend-mode: exclusion;
-    color: black;
+  padding: 0.2rem;
+  background: white;
+  border-radius: 1rem;
+  mix-blend-mode: exclusion;
+  color: black;
 }
 
 .fullwrapper {
@@ -100,10 +100,10 @@
     #footer {
       position: relative;
       margin-top: 3rem !important;
-      top: auto;
+      top: 0;
     }
 
-  #arrow{
-    display: none;
-  }
+    #arrow{
+      display: none;
+    }
   }
