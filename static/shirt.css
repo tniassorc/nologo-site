@@ -7,6 +7,11 @@
   line-height: 1;
   z-index: 100;
   mix-blend-mode: exclusion;
+      padding: 0.2rem;
+    background: white;
+    border-radius: 1rem;
+    mix-blend-mode: exclusion;
+    color: black;
 }
 
 .fullwrapper {
@@ -98,4 +103,7 @@
       top: auto;
     }
 
+  #arrow{
+    display: none;
+  }
   }
