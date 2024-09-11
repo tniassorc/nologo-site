@@ -1,6 +1,6 @@
 @font-face {
 	font-family: Monigue;
-	src: url("./fonts/Monigue.otf") format("otf"), url("./fonts/Monigue.ttf") format("ttf"), url("./fonts/Monigue.woff") format("woff"), url("./fonts/Monigue.woff2") format("woff2");
+	src: url("./fonts/monigue.otf") format("otf"), url("./fonts/monigue.ttf") format("ttf"), url("./fonts/monigue.woff") format("woff"), url("./fonts/monigue.woff2") format("woff2");
 }
 
 * {
